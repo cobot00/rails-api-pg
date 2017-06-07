@@ -8,6 +8,8 @@ end
 
 gem 'rails', '~> 5.0.3'
 
+gem 'nokogiri', '1.8.0'
+
 gem 'pg', '~> 0.18'
 gem 'puma', '~> 3.0'
 
