@@ -25,6 +25,10 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
+group :development, :test do
+  gem 'rspec-rails', '~> 3.5'
+end
+
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
