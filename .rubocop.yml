@@ -1,0 +1,32 @@
+AllCops:
+  TargetRubyVersion: 2.4.1
+  Include:
+    - '**/Gemfile'
+    - '**/Rakefile'
+    - '**/config.ru'
+  Exclude:
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'script/**/*'
+    - 'vendor/**/*'
+    - 'bin/*'
+    - !ruby/regexp /old_and_unused\.rb$/
+
+AsciiComments:
+  Enabled: false
+
+ClassAndModuleChildren:
+  Enabled: false
+
+Layout/EndOfLine:
+  Enabled: false
+
+Metrics/LineLength:
+  Enabled: false
+
+Rails:
+  Enabled: true
+
+Style/Documentation:
+  Enabled: false
+
